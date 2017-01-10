@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.wanglang.bottomnavigation.fragments.AroundFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/write">
+
+        <include layout="@layout/include_home_around_title_layout"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_layout_around_cate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="享美食"
+                android:drawableBottom="@color/near_mueu_sele_bg"
+                android:drawablePadding="5dp"
+                android:textSize="19sp"
+                android:textColor="@drawable/near_title_textcolor"/>
+
+
+            <TextView
+                android:id="@+id/tv_layout_around_grogshop"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@color/near_mueu_sele_bg"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="住酒店"
+                android:textSize="19sp"
+                android:textColor="@drawable/near_title_textcolor"/>
+
+
+            <TextView
+                android:id="@+id/tv_layout_around_libertinism"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:text="爱玩乐"
+                android:drawableBottom="@color/near_mueu_sele_bg"
+                android:drawablePadding="5dp"
+                android:textColor="@drawable/near_title_textcolor"/>
+
+            <TextView
+                android:id="@+id/tv_layout_around_all"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="全部"
+                android:drawableBottom="@color/near_mueu_sele_bg"
+                android:drawablePadding="5dp"
+                android:textSize="19sp"
+                android:textColor="@drawable/near_title_textcolor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            >
+            <View
+                android:id="@+id/view_layout_around_segmentation_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="2dp"
+                android:background="@drawable/near_sementation_bg"/>
+            <View
+                android:id="@+id/view_layout_around_segmentation_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="2dp"
+                android:background="@drawable/near_sementation_bg"/>
+            <View
+                android:id="@+id/view_layout_around_segmentation_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="2dp"
+                android:background="@drawable/near_sementation_bg"/>
+            <View
+                android:id="@+id/view_layout_around_segmentation_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="2dp"
+                android:background="@drawable/near_sementation_bg"
+                />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_layout_near"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

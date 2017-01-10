@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_item_rc_all_frag_around_tag"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="热门"
+        android:textColor="@drawable/near_tag_textcolor"
+        android:background="@drawable/near_tag_seletor_bg"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:maxLines="1"
+        />
+
+</LinearLayout>

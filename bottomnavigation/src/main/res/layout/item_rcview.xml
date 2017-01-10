@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:showDividers="end"
+              android:layout_marginBottom="5dp"
+              android:divider="@drawable/ic_drawable_divider"
+             android:descendantFocusability="blocksDescendants"
+    >
+
+    <TextView
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="@dimen/tv_recomender_tile_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:id="@+id/tv_item_recomen"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="@dimen/tv_preferential_tile_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_item_pref"
+        android:textColor="@color/mineItemTextColor"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/icon_home_hotel_302"
+        android:id="@+id/iv_item_type"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>

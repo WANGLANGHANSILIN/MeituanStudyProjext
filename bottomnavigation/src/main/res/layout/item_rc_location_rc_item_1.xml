@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="3dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_item_rc_location_rc_item_1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="hahaxixi"
+        android:textColor="@color/mineItemTextColor"
+        android:background="@drawable/seletor_location_item_state"
+        android:layout_margin="1dp"
+        android:padding="10dp"/>
+
+</LinearLayout>

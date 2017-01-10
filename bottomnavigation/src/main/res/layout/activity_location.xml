@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/write"
+    android:orientation="vertical"
+    tools:context="com.wanglang.bottomnavigation.activitys.LocationActivity">
+
+    <include layout="@layout/item_title_location"/>
+
+    <EditText
+        android:id="@+id/ed_layout_location_search_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/search_bg"
+        android:hint="输入城市名或拼音查询"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:drawableStart="@mipmap/ic_global_search_results_title"
+        android:drawableLeft="@mipmap/ic_global_search_results_title"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_layout_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/minebackgroundColor">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <com.wanglang.bottomnavigation.view.SortView
+            android:id="@+id/st_layout_location"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_layout_location_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/gray_temp"
+            android:gravity="center"
+            android:padding="30dp"
+            android:textColor="@color/mineItemHraderColor"
+            android:textSize="33sp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

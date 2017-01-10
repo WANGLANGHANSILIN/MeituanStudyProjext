@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/minebackgroundColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/tv_layout_near_tag_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="热门"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/tv_layout_near_tag_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="面包甜点"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_near_tag_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="小吃快餐"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_near_tag_4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="北京菜"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="-5dp">
+        <TextView
+            android:id="@+id/tv_layout_near_tag_5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="川菜"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/tv_layout_near_tag_6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="日本料理"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_near_tag_7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="韩国料理"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_near_tag_8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="江浙菜"
+            android:textColor="@drawable/near_tag_textcolor"
+            android:background="@drawable/near_tag_seletor_bg"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

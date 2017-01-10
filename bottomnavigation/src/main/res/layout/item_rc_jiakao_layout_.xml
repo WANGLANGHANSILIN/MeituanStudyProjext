@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+            android:background="@color/write"
+            android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_item_rc_jiakao_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这个标志是何含义？"
+        android:textSize="21dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_item_rc_jiakao_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="120dp"
+        android:src="@mipmap/ic_category_3"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_item_rc_jiakao_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A.分向行驶车道"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:textColor="@drawable/near_title_textcolor"/>
+    <TextView
+        android:id="@+id/tv_item_rc_jiakao_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B.掉头和左转合用车道"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:textColor="@drawable/near_title_textcolor"/>
+    <TextView
+        android:id="@+id/tv_item_rc_jiakao_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C.禁止左转和掉头车道"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:textColor="@drawable/near_title_textcolor"/>
+    <TextView
+        android:id="@+id/tv_item_rc_jiakao_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D.直行和左转合用车道"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:textColor="@drawable/near_title_textcolor"/>
+
+        <TextView
+            android:id="@+id/tv_item_rc_jiakao_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:text="B"
+            android:textSize="21dp"
+            android:textColor="@color/near_mueu_sele_bg"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_item_rc_jiakao_explains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="解释：左转和掉头合并在一个标志里，你应该能看到的。"
+            android:textSize="17dp"
+            android:textColor="@color/near_titel_bg"
+            android:visibility="invisible"/>
+
+
+
+
+</LinearLayout>

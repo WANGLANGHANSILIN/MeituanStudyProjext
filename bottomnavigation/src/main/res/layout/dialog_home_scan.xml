@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_scan_item_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@mipmap/actionbar_index_pop_scan_item_scan"
+        android:drawablePadding="10dp"
+        android:drawableStart="@mipmap/actionbar_index_pop_scan_item_scan"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="扫一扫"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:id="@+id/tv_dialog_scan_item_pay_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@mipmap/actionbar_index_pop_scan_item_pay_code"
+        android:drawablePadding="10dp"
+        android:drawableStart="@mipmap/actionbar_index_pop_scan_item_pay_code"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="付款碼"
+        />
+
+</LinearLayout>

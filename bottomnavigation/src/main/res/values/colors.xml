@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="write">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="red">#a32a28</color>
+
+    <color name="gray">#808080</color>
+    <color name="org">#FD4401</color>
+    <color name="gren">#e712fd01</color>
+
+    <color name="gray_temp">#dd808080</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="grasdsds">#bfebeaea</color>
+
+    <color name="botomTabColor">#f6f6f6</color>
+    <color name="mineItemColor">#fdfdfe</color>
+    <color name="minebackgroundColor">#efefef</color>
+    <color name="mineItemTextColor">#4b4b4b</color>
+
+    <color name="mineItemHraderColor">#06c0ad</color>
+    <color name="logintextColor">#4c4c4c</color>
+
+    <color name="search_bg">#e5e6e7</color>
+    <color name="near_mueu_sele_bg">#fc566d</color>
+    <color name="near_titel_bg">#666666</color>
+
+
+    <color name="location_text_color">#333333</color>
+
+    <color name="location_layout_bacg">#f3f3f3</color>
+
+    <color name="dialog_scan_bg">#686c70</color>
+</resources>

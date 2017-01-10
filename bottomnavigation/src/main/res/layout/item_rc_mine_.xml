@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0.1dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_item_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/mineItemColor"
+        android:padding="10dp"
+        android:minHeight="45dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_item_mine_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_category_1"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_mine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv_item_mine_icon"
+            android:gravity="center"
+            android:text="haha"
+            android:textColor="@color/mineItemTextColor"
+            android:textSize="21sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_mine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="heihie"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/tv_item_mine_text"
+            android:gravity="center"
+            android:text=" > "
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+    <Space
+        android:id="@+id/space_item_mine_s"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

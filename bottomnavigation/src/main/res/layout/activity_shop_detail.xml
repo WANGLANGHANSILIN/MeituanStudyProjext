@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wanglang.bottomnavigation.view.ParallaxView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shop_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanglang.bottomnavigation.activitys.ShopDetailActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_shop_derail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_category_3"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/iv_shop_derail"
+        android:id="@+id/rc_shop_derail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</com.wanglang.bottomnavigation.view.ParallaxView>

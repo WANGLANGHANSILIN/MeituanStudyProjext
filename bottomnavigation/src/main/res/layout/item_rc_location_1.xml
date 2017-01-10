@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:background="@color/write">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前："
+        android:textColor="@color/location_text_color"/>
+    <TextView
+        android:id="@+id/tv_item_rc_location_city"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="北京"
+        android:textColor="@color/location_text_color"/>
+    <TextView
+        android:id="@+id/tv_item_rc_location_xianqu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择县区"
+        android:drawableRight="@mipmap/arrow_down"
+        android:drawablePadding="3dp"
+        android:textColor="@color/near_titel_bg"/>
+
+</LinearLayout>

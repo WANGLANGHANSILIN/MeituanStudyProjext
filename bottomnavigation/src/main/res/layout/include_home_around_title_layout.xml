@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    tools:showIn="@layout/fragment_around2">
+
+    <TextView
+        android:id="@+id/tv_layout_around_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableEnd="@mipmap/arrow_down"
+        android:drawableRight="@mipmap/arrow_down"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/mineItemTextColor"
+        android:text="广州市江高镇夏花四路483号"
+        android:background="@drawable/ic_draw_item_bg"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_layout_around_search"
+        android:layout_marginLeft="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@drawable/ed_bg_search_local"
+        android:gravity="center"
+        android:textColor="@color/mineItemTextColor"
+        android:textColorHint="@color/gray_temp"
+        android:maxLines="1"
+        android:hint="找附近的吃喝玩乐"
+        />
+
+</LinearLayout>
